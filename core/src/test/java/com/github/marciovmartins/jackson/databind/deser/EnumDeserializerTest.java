@@ -28,7 +28,7 @@ public class EnumDeserializerTest {
   }
 
   @Test
-  void deserializeToRecordWithInvalidEnumOptionShouldFail() throws Throwable {
+  void deserializeToRecordWithInvalidEnumOptionShouldFail() {
     // setup
     var objectMapper = getObjectMapper();
     var json = """
