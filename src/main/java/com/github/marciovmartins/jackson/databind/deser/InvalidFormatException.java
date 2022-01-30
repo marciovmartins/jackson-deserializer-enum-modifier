@@ -1,3 +1,5 @@
+package com.github.marciovmartins.jackson.databind.deser;
+
 import com.fasterxml.jackson.core.JsonParser;
 
 import java.util.regex.Pattern;
