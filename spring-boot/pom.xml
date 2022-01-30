@@ -10,19 +10,19 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jackson-deserializer-enum-modifier</artifactId>
+    <artifactId>spring-boot-jackson-deserializer-enum-modifier</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>core</name>
+    <name>spring-boot</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
+            <groupId>com.github.marciovmartins.jackson.databind.deser</groupId>
+            <artifactId>jackson-deserializer-enum-modifier</artifactId>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
     </dependencies>
 

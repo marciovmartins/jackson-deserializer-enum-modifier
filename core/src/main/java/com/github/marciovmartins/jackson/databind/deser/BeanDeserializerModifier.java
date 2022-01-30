@@ -9,6 +9,10 @@ public class BeanDeserializerModifier
     extends com.fasterxml.jackson.databind.deser.BeanDeserializerModifier {
   private final boolean caseInsensitive;
 
+  public BeanDeserializerModifier() {
+    this(false);
+  }
+
   public BeanDeserializerModifier(boolean caseInsensitive) {
     this.caseInsensitive = caseInsensitive;
   }
