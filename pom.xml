@@ -11,7 +11,7 @@
 
     <groupId>com.github.marciovmartins.jackson.databind.deser</groupId>
     <artifactId>jackson-deserializer-enum-modifier-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>parent</name>
     <packaging>pom</packaging>
 
