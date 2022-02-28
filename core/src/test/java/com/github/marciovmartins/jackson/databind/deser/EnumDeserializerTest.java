@@ -40,6 +40,7 @@ public class EnumDeserializerTest {
             """;
     // execution && assertions
     assertThatThrownBy(() -> objectMapper.readValue(json, UserAsRecord.class))
+            .isExactlyInstanceOf(com.github.marciovmartins.jackson.databind.deser.InvalidFormatException.class)
             .isInstanceOf(InvalidFormatException.class)
             .hasMessage("\"%s\" is not one of the values accepted: %s".formatted("INVALID", "[REGULAR, PREMIUM]"));
   }
