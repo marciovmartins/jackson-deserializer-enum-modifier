@@ -1,4 +1,4 @@
-package com.github.marciovmartins.springframework.boot;
+package com.github.marciovmartins.springframework.boot.autoconfigure;
 
 import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.databind.module.SimpleModule;
@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@SuppressWarnings("SpringFacetCodeInspection")
 public class JacksonDeserializerEnumModifierConfiguration {
   @Bean
   Module beanSerializerModifierBean() {
